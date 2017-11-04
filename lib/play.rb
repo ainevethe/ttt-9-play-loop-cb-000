@@ -38,8 +38,8 @@ end
 # Define your play method below
 
 def play(board)
-
-  while valid_move? == true do
+  turns = 1
+  while turns < 10
     turn(board)
   end
 end
