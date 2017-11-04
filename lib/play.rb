@@ -41,5 +41,5 @@ def play(board)
 
   while valid_move? == true do
     turn(board)
-
+  end
 end
