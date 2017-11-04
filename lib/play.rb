@@ -39,7 +39,7 @@ end
 
 def play(board)
 
-  while valid_move? == true
+  while valid_move? == true do
     turn(board)
   else
     puts " No more moves "
