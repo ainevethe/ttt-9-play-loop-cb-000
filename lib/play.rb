@@ -36,3 +36,12 @@ def turn(board)
 end
 
 # Define your play method below
+
+def play(board)
+
+  while valid_move? == true
+    turn(board)
+  else break;
+  end
+
+end
