@@ -41,8 +41,8 @@ def play(board)
 
   while valid_move? == true
     turn(board)
-  else 
+  else
     break;
-  end
+
 
 end
