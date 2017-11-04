@@ -42,6 +42,7 @@ def play(board)
   while valid_move? == true
     turn(board)
   else
+    puts " No more moves "
     break;
 
 
