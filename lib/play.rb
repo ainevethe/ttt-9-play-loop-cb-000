@@ -43,7 +43,6 @@ def play(board)
     turn(board)
   else
     puts " No more moves "
-    break;
-
+end
 
 end
